@@ -22,9 +22,13 @@ It explores the **STANFORD robot**, one of the earliest and most studied 6-DOF s
 ## About the STANFORD Robot
 
 --> Type: 6-DOF serial manipulator
+
 --> Joint Configuration: 5 revolute + 1 prismatic joint
+
 --> Reach: ~1 meter
+
 --> Payload Capacity: ~5 kg
+
 --> Control: Computer-controlled
 
 The STANFORD robot is historically significant and widely used in robotics education and research, serving as a foundation for modern manipulator design.
@@ -33,8 +37,11 @@ The STANFORD robot is historically significant and widely used in robotics educa
 ## Software Used
 
 --> RoboAnalyzer
+
 --> 3D model-based robotics simulation tool
+
 --> Developed by IIT Delhi
+
 --> Supports kinematic, dynamic, and workspace analysis
 
 Official Website: http://www.roboanalyzer.com/
@@ -51,21 +58,22 @@ Official Website: http://www.roboanalyzer.com/
 
 2. Forward Kinematics
    End-effector position and orientation computed from joint parameters
+   
      * Initial and final end-effector configurations analyzed
      * End-effector trajectory visualized during motion
 
- 3. Inverse Kinematics
+ 4. Inverse Kinematics
     Numerical methods used to compute joint values for a desired end-effector pose
      * Enabled validation of reachable configurations
 
-4. Joint and Link Motion Analysis
+5. Joint and Link Motion Analysis
    The following plots were generated using RoboAnalyzer:
      * Joint angle vs time
      * Joint velocity vs time
      * Joint acceleration vs time
      * Link position along X, Y, Z axes
 
-5. Workspace Analysis
+6. Workspace Analysis
    Visualized reachable workspace of the robot
      * Identified motion limits and safe operating regions
 
@@ -78,8 +86,11 @@ Official Website: http://www.roboanalyzer.com/
 
 ## 📂 Repository Structure
 ├── images/     → Simulation screenshots & figures
+
 ├── results/    → Graphs and plots
+
 ├── models/     → RoboAnalyzer robot model
+
 ├── docs/       → Project report (PDF)
 
 
