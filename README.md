@@ -12,7 +12,9 @@ It explores the **STANFORD robot**, one of the earliest and most studied 6-DOF s
 ## 📌 Project Overview
 
 --> This project presents a simulation-based kinematic analysis of the STANFORD robot, a classical 6-degree-of-freedom (6-DOF) serial manipulator, using RoboAnalyzer.
+
 --> The analysis focuses on forward kinematics, inverse kinematics, frame transformations, workspace visualization, and joint-level motion characteristics such as angle, velocity, and acceleration.
+
 --> This project was originally completed in 2022 as part of academic coursework and is now documented for open-source reference and portfolio presentation.
 
 ---
